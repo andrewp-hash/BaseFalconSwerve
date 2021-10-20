@@ -65,6 +65,11 @@ public class RobotContainer {
    */
   public Command getAutonomousCommand() {
     // An ExampleCommand will run in autonomous
-    return new exampleAuto(s_Swerve);
+    //return new exampleAuto(s_Swerve);
+    return new TrenchAuto(s_Swerve);
+    //return new LineWith180Flip(s_Swerve);
+
+
+
   }
 }
